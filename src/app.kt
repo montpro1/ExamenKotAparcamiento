@@ -1,0 +1,18 @@
+fun main() {
+    var aparcamientoA = aparcamiento()
+    println(aparcamientoA.nombre)
+    println(aparcamientoA.plazaslibres)
+    println(aparcamientoA.plazastotales)
+    var aparcamientoB=aparcamiento(nombre = "perro",plazastotales = 2000,plazaslibres = 300)
+    println(aparcamientoB.plazastotales)
+    println(aparcamientoB.nombre)
+    println(aparcamientoB.plazaslibres)
+    var cochesA=coches()
+    println(cochesA.matricula)
+    println(cochesA.horaentrada)
+    println(cochesA.horasalida)
+    var cochesB=coches(matricula = "923746G",horaentrada = "4:34",horasalida = "7:43")
+    println(cochesB.matricula)
+    println(cochesB.horaentrada)
+    println(cochesB.horasalida)
+}
